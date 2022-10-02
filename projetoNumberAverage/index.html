@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/iconMedia.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title> Calculador de Média </title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="boxCenter">
+
+            <div class="box">
+                <div>
+                    <h3>Número de 0 á 100 :</h3>
+                </div>
+                <div>
+                    <input type="number" name="" id="numbers">
+                    <input class="btn" type="button" value="Add" onclick="add()">
+                </div>
+            </div>
+
+            <hr>
+
+            <select multiple id="selectNumbers">
+                <!-- Dados Váriaveis -->
+            </select>
+
+            <div class="boxCheck">
+                <input class="btn" type="button" value="Verificar" onclick="check()">
+            </div>
+
+            <footer id="result">
+                <!-- Dados Váriaveis -->
+            </footer>
+
+        </div>
+
+    </div>
+
+    <script src="./controller/app.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
